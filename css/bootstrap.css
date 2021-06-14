@@ -51,7 +51,7 @@ body {
   font-weight: 400;
   line-height: 1.5;
   color: #212529;
-  background-color: #fff;
+  background-color: #41649F;
   -webkit-text-size-adjust: 100%;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
@@ -635,7 +635,7 @@ progress {
   flex-wrap: wrap;
   margin-top: calc(var(--bs-gutter-y) * -1);
   margin-right: calc(var(--bs-gutter-x) / 1);
-  margin-left: calc(var(--bs-gutter-x) / -1);
+  margin-left: calc(var(--bs-gutter-x) / -2);
 }
 .row > * {
   flex-shrink: 0;
@@ -4335,6 +4335,7 @@ textarea.form-control-lg {
   left: 0;
   padding: 1rem;
   border-radius: calc(0.25rem - 1px);
+  background-image:url("../images/greyer.jpeg");
 }
 
 .card-img,
